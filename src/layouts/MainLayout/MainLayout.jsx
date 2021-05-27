@@ -15,7 +15,9 @@ const MainLayout = ({ children }) => (
     </Helmet>
     <div className={styles.wrapper}>
       <Topbar />
-      {children}
+      <main className={styles.main}>
+        {children}
+      </main>
     </div>
   </>
 );

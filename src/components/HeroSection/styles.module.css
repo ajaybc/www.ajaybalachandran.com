@@ -1,0 +1,45 @@
+.heroSectionWrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.innerContainer {
+
+}
+
+.heroTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 160px;
+  font-family: 'Manjari', sans-serif;
+  margin-bottom: -35px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.arrowRight {
+  width: 0; 
+  height: 0; 
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid #ff4d5e;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.careerLink {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  color: #0d0d0d;
+  display: block;
+  margin-top: 90px;
+}
