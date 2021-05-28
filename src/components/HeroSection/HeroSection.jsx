@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
 import Grid from '@material-ui/core/Grid';
 
+import HeroImage from '../HeroImage';
 import * as styles from './styles.module.css';
 
 export default () => (
@@ -12,6 +12,7 @@ export default () => (
       spacing={3}
       justify="space-between"
       alignItems="center"
+      className={styles.innerContainer}
     >
       <Grid item xs={7}>
         <section className={styles.heroTextContainer}>
@@ -31,7 +32,9 @@ export default () => (
           </div>
         </section>
       </Grid>
-      <Grid item xs={6} />
+      <Grid item xs={5}>
+        <HeroImage />
+      </Grid>
     </Grid>
   </div>
 );

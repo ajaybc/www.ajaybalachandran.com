@@ -5,12 +5,13 @@
 }
 
 .innerContainer {
-
+  
 }
 
 .heroTextContainer {
   display: flex;
   align-items: center;
+  margin-top: -200px;
 }
 
 h1 {
