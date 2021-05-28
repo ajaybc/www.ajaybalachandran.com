@@ -11,27 +11,27 @@
 .heroTextContainer {
   display: flex;
   align-items: center;
-  margin-top: -200px;
+  margin-top: -8vw;
 }
 
 h1 {
-  font-size: 160px;
+  font-size: min(max(1rem, 6vw), 160px);
   font-family: 'Manjari', sans-serif;
-  margin-bottom: -35px;
+  margin-bottom: 0;
   margin-top: 0;
 }
 
 p {
-  font-size: 24px;
-  margin-top: 0;
+  font-size: min(max(1rem, 1.0vw), 24px);
+  margin-top: -1.8vw;
 }
 
 .arrowRight {
   width: 0; 
   height: 0; 
-  border-top: 12px solid transparent;
-  border-bottom: 12px solid transparent;
-  border-left: 12px solid #ff4d5e;
+  border-top: min(0.7vw, 12px) solid transparent;
+  border-bottom: min(0.7vw, 12px) solid transparent;
+  border-left: min(0.7vw, 12px) solid #ff4d5e;
   display: inline-block;
   margin-left: 15px;
 }
@@ -39,7 +39,7 @@ p {
 .careerLink {
   text-decoration: none;
   font-weight: 700;
-  font-size: 30px;
+  font-size: min(max(1rem, 1.2vw), 30px);
   color: #0d0d0d;
   display: block;
   margin-top: 90px;

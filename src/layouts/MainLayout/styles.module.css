@@ -1,13 +1,19 @@
+:global(html) {
+  font-size: 16px;
+}
+
 :global(body) {
   background: #f8faff url('../../images/background-pattern.png') repeat;
 }
 
 .wrapper {
-  padding: 0 160px;
+  padding: 0 6vw;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100%;
+  max-width: 2560px;
 }
 
 .main {

@@ -14,15 +14,14 @@ export default () => (
       alignItems="center"
       className={styles.innerContainer}
     >
-      <Grid item xs={7}>
+      <Grid item xs={6} md={8}>
         <section className={styles.heroTextContainer}>
           <div>
             <h1>നമസ്കാരം</h1>
             <p>
               I am a fullstack web developer with experience developing
-              highly distributed and reliable systems.
-              <br />
-              Currently focusing on developing rich UI for a multitude
+              highly distributed and reliable systems. Currently focusing on 
+              developing rich UI for a multitude
               of web applications since falling in love with Javascript.
             </p>
             <Link to="/career" className={styles.careerLink}>
@@ -32,7 +31,7 @@ export default () => (
           </div>
         </section>
       </Grid>
-      <Grid item xs={5}>
+      <Grid item xs={6} md={4}>
         <HeroImage />
       </Grid>
     </Grid>
