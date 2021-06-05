@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import Grid from '@material-ui/core/Grid';
 
 import HeroImage from '../HeroImage';
+import SocialIcons from '../SocialIcons';
 import * as styles from './styles.module.css';
 
 export default () => (
@@ -35,5 +36,6 @@ export default () => (
         <HeroImage />
       </Grid>
     </Grid>
+    <SocialIcons />
   </div>
 );

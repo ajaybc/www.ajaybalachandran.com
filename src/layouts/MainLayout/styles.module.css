@@ -9,9 +9,6 @@
 .wrapper {
   padding: 0 6vw;
   font-family: 'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
   width: 100%;
   max-width: 2560px;
 }
