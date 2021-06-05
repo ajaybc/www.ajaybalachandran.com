@@ -23,6 +23,7 @@ h1 {
 
 p {
   font-size: min(max(1rem, 1.0vw), 24px);
+  line-height: 36px;
 }
 
 .careerLink {
