@@ -8,3 +8,12 @@
   padding: 0 6vw;
   top: 80px;
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    position: static;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+}
