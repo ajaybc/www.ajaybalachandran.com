@@ -29,11 +29,11 @@ export default () => (
                 developing rich UI for a multitude
                 of web applications since falling in love with Javascript.
               </p>
-              <Link to="/career" className={styles.careerLink}>
-                MY CAREER
+              <a href="/resume.pdf" className={styles.careerLink}>
+                MY RESUME
                 {/* <div className={styles.arrowRight} /> */}
                 <span className={clsx('material-icons', 'md-36', styles.arrowRight)}>play_arrow</span>
-              </Link>
+              </a>
             </div>
           </section>
           <Hidden xsDown>
