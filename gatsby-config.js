@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'My Gatsby Site',
+    title: 'Ajay Balachandran',
+    titleTemplate: '%s · Web Developer',
+    twitterUsername: 'ajaybchandran',
+    url: 'https://www.ajaybalachandran.com',
+    image: '/images/ajay-balachandran-with-pattern.png',
   },
   plugins: [
     'gatsby-plugin-styled-components',

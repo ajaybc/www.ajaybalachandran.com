@@ -10,6 +10,23 @@ const MainLayout = ({ children }) => (
   <>
     <CssBaseline />
     <Helmet>
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "http://www.schema.org",
+            "@type": "person",
+            "name": "Ajay Balachandran",
+            "jobTitle": "Technical Lead",
+            "url": "https://www.ajaybalachandran.com",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kuala Lumpur",
+                "addressCountry": "Malaysia"
+            },
+            "birthDate": "1989-08-11"
+          }
+        `}
+      </script>
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@700&family=Nunito:wght@600;800&family=Roboto:wght@400;700&family=Material+Icons&display=swap" rel="stylesheet" />
     </Helmet>

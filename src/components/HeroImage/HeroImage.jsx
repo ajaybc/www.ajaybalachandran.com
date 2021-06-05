@@ -5,6 +5,6 @@ import * as styles from './styles.module.css';
 
 export default () => (
   <div className={styles.wrapper}>
-    <StaticImage src="../../images/ajay-balachandran-with-pattern.png" alt="Ajay Balachandran" className={styles.myImage} quality={100} />
+    <StaticImage src="../../images/ajay-balachandran-with-pattern.png" alt="Ajay Balachandran" quality={100} />
   </div>
 );
