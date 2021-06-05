@@ -25,23 +25,27 @@ p {
   font-size: min(max(1rem, 1.0vw), 24px);
 }
 
-.arrowRight {
-  width: 0; 
-  height: 0; 
-  border-top: min(0.7vw, 12px) solid transparent;
-  border-bottom: min(0.7vw, 12px) solid transparent;
-  border-left: min(0.7vw, 12px) solid #ff4d5e;
-  display: inline-block;
-  margin-left: 15px;
-}
-
 .careerLink {
   text-decoration: none;
   font-weight: 700;
   font-size: min(max(1rem, 1.2vw), 30px);
+  line-height: min(max(1rem, 1.2vw), 30px);
   color: #0d0d0d;
-  display: block;
+  display: flex;
+  align-items: center;
   margin-top: 90px;
+}
+
+.arrowRight {
+  color: #ff4d5e;
+  display: inline-block;
+  margin-left: 10px;
+  transition: margin 500ms;
+  font-size: min(max(1rem, 1.4vw), 36px) !important;
+}
+
+.careerLink:hover .arrowRight {
+  margin-left: 15px;
 }
 
 @media (max-width: 600px) {

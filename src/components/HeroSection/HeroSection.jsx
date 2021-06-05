@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Hidden from '@material-ui/core/Hidden';
+import clsx from 'clsx';
 
 import HeroImage from '../HeroImage';
 import SocialIcons from '../SocialIcons';
@@ -30,7 +31,8 @@ export default () => (
               </p>
               <Link to="/career" className={styles.careerLink}>
                 MY CAREER
-                <div className={styles.arrowRight} />
+                {/* <div className={styles.arrowRight} /> */}
+                <span className={clsx('material-icons', 'md-36', styles.arrowRight)}>play_arrow</span>
               </Link>
             </div>
           </section>
